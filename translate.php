@@ -3,85 +3,88 @@
 $arrayTextLanguages = array(
     "HOME_MENU" => array(
         "HOME" => array(
-            "BR" => "Home",
-            "EN" => "Home"
+            "br" => "Home",
+            "en" => "Home"
         ),
         "ABOUT" => array(
-            "BR" => "Sobre",
-            "EN" => "About"
+            "br" => "Sobre",
+            "en" => "About"
         ),
         "CONTACT" => array(
-            "BR" => "Contato",
-            "EN" => "Contact"
+            "br" => "Contato",
+            "en" => "Contact"
         )
     ),
     "HOME_INTRO" => array(
-        "BR" => "Pequeno Framework gratuito criado para interceptar e manipular requisições RESTful utilizando o Slim",
-        "EN" => "It is small free framework create to intercept and manipulate RESTful requests using the Slim."
+        "br" => "Pequeno Framework gratuito criado para interceptar e manipular requisições RESTful utilizando o Slim",
+        "en" => "It is small free framework create to intercept and manipulate RESTful requests using the Slim."
     ),
     "HOME_BUTTONS" => array(
         "BUTTON1" => array(
-            "BR" => "Instalar",
-            "EN" => "Install"
+            "br" => "Instalar",
+            "en" => "Install"
         ),
         "BUTTON2" => array(
-            "BR" => "Comece já",
-            "EN" => "Get Started"
+            "br" => "Comece já",
+            "en" => "Get Started"
         ),
     ),
     "HOME_LINKS" => array(
         "GITHUB" => array(
-            "BR" => "Veja no GitHub",
-            "EN" => "View on GitHub"
+            "br" => "Veja no GitHub",
+            "en" => "View on GitHub"
         ),
         "COMPOSER" => array(
-            "BR" => "Veja no Composer",
-            "EN" => "View on Composer"
+            "br" => "Veja no Composer",
+            "en" => "View on Composer"
         ),
         "DOCUMENTATION" => array(
-            "BR" => "Veja a documentação",
-            "EN" => "View full documentation"
+            "br" => "Veja a documentação",
+            "en" => "View full documentation"
         ),
         "CREATED" => array(
-            "BR" => "Criado por:",
-            "EN" => "Created By:"
+            "br" => "Criado por:",
+            "en" => "Created By:"
         )
     ),
     "GET_STARTED" => array(
         "TITLE" => array(
-            "BR" => "Iniciando",
-            "EN" => "Get Started"
+            "br" => "Iniciando",
+            "en" => "Get Started"
         ),
         "INSTALL" => array(
-            "TITLE"=>array(
-                "BR" => "Instalar",
-                "EN" => "Install"
+            "TITLE" => array(
+                "br" => "Instalar",
+                "en" => "Install"
             ),
-            "TEXT1"=>array(
-                "BR" => "Recomendamos que você faça a instalação do Siht Framework utilizando o Composer.",
-                "EN" => "Recomendamos que você faça a instalação do Siht Framework utilizando o Composer."
+            "TEXT1" => array(
+                "br" => "Recomendamos que você faça a instalação do Siht Framework utilizando o Composer.",
+                "en" => "Recomendamos que você faça a instalação do Siht Framework utilizando o Composer."
             ),
-            "TEXT2"=>array(
-                "BR" => "Visite o Siht Framework no Composer",
-                "EN" => "Visite o Siht Framework no Composer"
+            "TEXT2" => array(
+                "br" => "Visite o Siht Framework no Composer",
+                "en" => "Visite o Siht Framework no Composer"
             ),
         ),
         "TUTORIAL" => array(
-            "TITLE"=>array(
-                "BR" => "Tutorial para um CRUD de Cidade",
-                "EN" => "Tutorial para um CRUD de Cidade",
+            "TITLE" => array(
+                "br" => "Tutorial para um CRUD de Cidade",
+                "en" => "Tutorial para um CRUD de Cidade",
             ),
-            "TEXT1"=>array(
-                "BR" => "",
-                "EN" => ""
+            "TEXT1" => array(
+                "br" => "",
+                "en" => ""
             ),
         ),
     ),
     "CONTACT_GET_CONNECTED" => array(
-        "BR" => "Fique conectado",
-        "EN" => "Get Connected"
+        "br" => "Fique conectado",
+        "en" => "Get Connected"
     ),
 );
 
-$LANGUAGE = isset($_GET["l"]) && !empty($_GET["l"]) ? $_GET["l"] : "EN";
-?>
+$uri = isset($_GET["uri"]) ? $_GET["uri"] : false;
+$uri = explode("/", $uri);
+
+$LANGUAGE = isset($uri[0]) && !empty($uri[0]) ? $uri[0] : "en";
+$LANGUAGE = in_array($LANGUAGE, array("br", "en")) ? $LANGUAGE : "en";
