@@ -49,15 +49,15 @@ include_once './code.php';
                     </div><!--//navbar-header-->            
                     <div class="navbar-collapse collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li class="active nav-item sr-only"><a class="scrollto" href="#promo"><?php echo $arrayTextLanguages["HOME_MENU"]["HOME"][$LANGUAGE] ?></a></li>
-                            <li class="nav-item"><a class="scrollto" href="#about"><?php echo $arrayTextLanguages["HOME_MENU"]["ABOUT"][$LANGUAGE] ?></a></li>
-                            <li class="nav-item"><a class="scrollto" href="#docs"><?php echo $arrayTextLanguages["HOME_BUTTONS"]["BUTTON2"][$LANGUAGE] ?></a></li>
-                            <li class="nav-item last"><a class="scrollto" href="#contact"><?php echo $arrayTextLanguages["HOME_MENU"]["CONTACT"][$LANGUAGE] ?></a></li>
+                            <li class="active nav-item sr-only"><a class="scrollto" href="#promo"><?php echo TEXT_001 ?></a></li>
+                            <li class="nav-item"><a class="scrollto" href="#about"><?php echo TEXT_002 ?></a></li>
+                            <li class="nav-item"><a class="scrollto" href="#docs"><?php echo TEXT_003 ?></a></li>
+                            <li class="nav-item last"><a class="scrollto" href="#contact"><?php echo TEXT_004 ?></a></li>
                             <li class="nav-item last">
 
                                 <?php
                                 $url = "";
-                                switch ($LANGUAGE) {
+                                switch (LANGUAGE) {
                                     case "br":
                                         echo "<a href='./en'><img border='0' style='width:40px' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAvCAYAAABe1bwWAAADfElEQVRoQ+2bX0hTURzHv2dO829ONpNMs4ggiF4KzB4KKTOVEjJ1EEWZ+A8q6imlh3qIwPXQH+jBpFooas4/YBD21EuG/YGgeqkWgovp0G3+mzP358S9sGWx7e7eyby73vM0uL9zzu/72fccfmc7l2BFK9MZS0DRAKAAQBYAsvL5an7u+Ni6msMJHYsC1EJARikUbWpD27BvIFZ44c2xxOQkjx6AVugMfPuJBMx/aZPni0ipyTXcdbJgynQ/O0DpGb7iIokXJxiAUtKp6Xt0lpTqfhQTSl5FIlJIX7GCYbVQcoyUtRr7AVQIERdJH1GDAQYZMFMANJGIFNJX3GDoJAOGChGWnRGPhiMa3OibENId4gYDr2AwVQUqnD+kRl37OMx2F284IgcDwWB0p7dgd04iOt/Y0P3WLoNhCKQlKtB1aTsUBKxbGNfwbZJ0zNE9abhSusnPornbjC8mJy82hstbecVHO5j3UspRx+O2NhvqVKU/V8usG61DFnybWAo7/5gG01ikYQEkb1CwgpkltC0zAXHMGgrQnMteeLyA0+WFx0MxNedGc485YGxMg7lQqMapfFXYLlgZ6PJQ3Hlhwch3h/TAMIrK96Wj7rCG3WjDbfNLXtwanMTXEPtOTDvGB6JgZwpayrOgjOOmMz3vxvVeM35ZQ9c2kgDDAKrIV6G2UM1pmmvd5pBO8Q0gGTCZaUrom/JCgllY8kL7YIwTHhMgHTAbldA3hgaz7KaoujcGt5f7+CUZMAd3paK5nPm1M3Rr6THj8zh3sSeZyrepSIPje9NZKnaHB10jNhgtv5GnSYD2QAY2q+LZZwMfZvD4tZWLn9hP1+EfIh/W5LLF3TujA/eHpzC76PGLT1ASFk5lvgommwsXn5rWD5hnTXnoHbXj5ac5BNtBmOPC/h0p6H8/s37AcCrlGSCZPYanbs5wGUwQRDIYGQzn6vknQHZMrDrG4Vzmrt/5mUES0UQGE/h7lMEE8bcMRgbDb+uTHSM7RnYMPwLBHGOtqpPrmABwiAwmSB0jg5HB8Np7mKW0JnfweGUZ9WBqZcAMADgZ9bnFPeEgsVbWF4PQqN/zFTUXghL2X/rpyvoOQqJ7M1ysYPw3w5kETVVXk5Lpgh4E1WJNOCp5ERgWaeo5/7sEvklt1bUnQBW19O/bJ1HJZ40nsRBg1AM8yTS0D/ly+QMpzH7D4sxATQAAAABJRU5ErkJggg=='></a>";
                                         break;
@@ -79,17 +79,17 @@ include_once './code.php';
             <div class="container text-center">
                 <h2 class="title">Siht<span class="highlight"> Framework </span></h2>
                 <p class="intro">
-                    <?php echo $arrayTextLanguages["HOME_INTRO"][$LANGUAGE] ?>
+                    <?php echo TEXT_005 ?>
                 </p>
                 <div class="btns">
-                    <a class="btn btn-cta-secondary scrollto" href="#docs" target="_blank"><?php echo $arrayTextLanguages["HOME_BUTTONS"]["BUTTON1"][$LANGUAGE] ?></a>
-                    <a class="btn btn-cta-primary scrollto" href="#docs" target="_blank"><?php echo $arrayTextLanguages["HOME_BUTTONS"]["BUTTON2"][$LANGUAGE] ?></a>
+                    <a class="btn btn-cta-secondary scrollto" href="#docs" target="_blank"><?php echo TEXT_006 ?></a>
+                    <a class="btn btn-cta-primary scrollto" href="#docs" target="_blank"><?php echo TEXT_007 ?></a>
                 </div>
                 <ul class="meta list-inline">
-                    <li><a href="https://github.com/luizdeangeli/Siht" target="_blank"><?php echo $arrayTextLanguages["HOME_LINKS"]["GITHUB"][$LANGUAGE] ?></a></li>
-                    <li><a href="https://packagist.org/packages/siht/siht" target="_blank"><?php echo $arrayTextLanguages["HOME_LINKS"]["COMPOSER"][$LANGUAGE] ?></a></li>
-<!--                    <li><a href="https://github.com/twbs/bootstrap" target="_blank"><?php echo $arrayTextLanguages["HOME_LINKS"]["DOCUMENTATION"][$LANGUAGE] ?></a></li>-->
-                    <li><?php echo $arrayTextLanguages["HOME_LINKS"]["CREATED"][$LANGUAGE] ?><a href="http://luizdeangeli.com.br" target="_blank">Luiz Henrique de Angeli</a></li>
+                    <li><a href="https://github.com/luizdeangeli/Siht" target="_blank"><?php echo TEXT_008 ?></a></li>
+                    <li><a href="https://packagist.org/packages/siht/siht" target="_blank"><?php echo TEXT_009 ?></a></li>
+<!--                    <li><a href="https://github.com/twbs/bootstrap" target="_blank"><?php echo TEXT_010 ?></a></li>-->
+                    <li><?php echo TEXT_011 ?><a href="http://luizdeangeli.com.br" target="_blank">Luiz Henrique de Angeli</a></li>
                 </ul><!--//meta-->
             </div><!--//container-->
             <div class="social-media">
@@ -106,18 +106,17 @@ include_once './code.php';
 
         <section id="about" class="about section">
             <div class="container">
-                <h2 class="title text-center">O que é o Siht Framework?</h2>
+                <h2 class="title text-center"><?php echo TEXT_012 ?></h2>
                 <p class="intro text-center">
-                    Siht é um pequeno framework desenvolvido com objetivo de criar a camada de interceptação e manipulação do contéudo da requisição. De forma a separar a criação de objetos modelo, validações, persistência. 
-                    O Siht framework utiliza o Slim Framework para a camada de RESTful.
+                    <?php echo TEXT_013 ?>
                 </p>
-                <h3 class="title text-center">Como funciona?</h3>
+                <h3 class="title text-center"><?php TEXT_014 ?></h3>
                 <p class="intro text-left">
-                    1. O Slim recebe a requisição e cria uma instância do Controller da classe e o método desejado.
-                    <br>2. O Controller da classe recebe a chamada do método e tenta executar o método com o mesmo nome e parametro nas classes Factory, HandleIn, Repository e HandleOut nesta sequência.
+                    <?php echo TEXT_015 ?>
+                    <br><?php echo TEXT_016 ?>
 
-                    <br><br>- As classes e métodos Factory, HandleIn, Repository e HandleOut são opcionais.
-                    <br>- Qualquer uma destas classes pode retornar uma informação para o solicitante.
+                    <br><br><?php echo TEXT_017 ?>
+                    <br><?php echo TEXT_018 ?>
                 </p>
                 <div class="row">
                     <div class="item col-md-4 col-sm-6 col-xs-12">
@@ -127,7 +126,7 @@ include_once './code.php';
                         <div class="content">
                             <h3 class="sub-title">Controller <small>[obrigatório]</small></h3>
                             <p>
-                                Identificar o método solicitado, interceptar e direcionar para a demais classes. Nesta classe não será realizada nenhuma programação.
+                                <?php echo TEXT_019 ?>
                             </p>
                         </div><!--//content-->
                     </div><!--//item-->
@@ -138,7 +137,7 @@ include_once './code.php';
                         <div class="content">
                             <h3 class="sub-title">Factory <small>[opcional]</small> </h3>
                             <p>
-                                Criar objetos que sejam enviados em formato JSON, XML ou outros para Objetos PHP.                                
+                                <?php echo TEXT_020 ?>
                             </p>
                         </div><!--//content-->
                     </div><!--//item-->
@@ -149,7 +148,7 @@ include_once './code.php';
                         <div class="content">
                             <h3 class="sub-title">HandleIn <small>[opcional]</small> </h3>
                             <p>
-                                Validar as informações enviadas antes de enviar para o Repository, pode-se gerar um Exception neste momento e parar a requisição.
+                                <?php echo TEXT_021 ?>
                             </p>
                         </div><!--//content-->
                     </div><!--//item-->           
@@ -161,7 +160,7 @@ include_once './code.php';
                         <div class="content">
                             <h3 class="sub-title">Repository <small>[opcional]</small></h3>
                             <p>
-                                Criar, Editar, Recuperar, Excluir ou Listar informações do banco de dados.
+                                <?php echo TEXT_022 ?>
                             </p>
                         </div><!--//content-->
                     </div><!--//item-->                
@@ -172,7 +171,7 @@ include_once './code.php';
                         <div class="content">
                             <h3 class="sub-title">HandleOut <small>[opcional]</small></h3>
                             <p>
-                                Validar as informações retornadas do Repository, pode-se gera um Exception neste momento.
+                                <?php echo TEXT_023 ?>
                             </p>
                         </div><!--//content-->
                     </div><!--//item-->
@@ -183,7 +182,7 @@ include_once './code.php';
                         <div class="content">
                             <h3 class="sub-title">Model <small>[opcional]</small></h3>
                             <p>
-                                Permitir criar objetos a partir de um classe modelo criada pelo desenvolvedor
+                                <?php echo TEXT_024 ?>
                             </p>
                         </div><!--//content-->
                     </div><!--//item-->               
@@ -195,13 +194,13 @@ include_once './code.php';
         <section id="docs" class="docs section">
             <div class="container">
                 <div class="docs-inner">
-                    <h2 class="title text-center"><?php echo $arrayTextLanguages["GET_STARTED"]["TITLE"][$LANGUAGE] ?></h2>    
+                    <h2 class="title text-center"><?php TEXT_025 ?></h2>    
 
                     <div class="block">
-                        <h3 class="sub-title text-center"><?php echo $arrayTextLanguages["GET_STARTED"]["INSTALL"]["TITLE"][$LANGUAGE] ?></h3>
+                        <h3 class="sub-title text-center"><?php echo TEXT_026 ?></h3>
 
-                        <p><?php echo $arrayTextLanguages["GET_STARTED"]["INSTALL"]["TEXT1"][$LANGUAGE] ?></p>
-                        <p><a href="#" target="_blank"><?php echo $arrayTextLanguages["GET_STARTED"]["INSTALL"]["TEXT2"][$LANGUAGE] ?></a></p>
+                        <p><?php echo TEXT_027 ?></p>
+                        <p><a href="#" target="_blank"><?php echo TEXT_028 ?></a></p>
 
                         <ul class="list-unstyled">
                             <li><strong>composer.json</strong></li>
@@ -218,7 +217,7 @@ include_once './code.php';
 
 
                     <div class="block">
-                        <h3 class="sub-title text-center">Hierarquia de Diretórios</h3>
+                        <h3 class="sub-title text-center"><?php echo TEXT_029 ?></h3>
                         <div class="code-block">
                             <pre><code class="language-markup">
     \vendor\
@@ -238,7 +237,7 @@ include_once './code.php';
                     </div><!--//block-->
 
                     <div class="block">
-                        <h3 class="sub-title text-center">Conteúdo dos arquivos</h3>
+                        <h3 class="sub-title text-center"><?php echo TEXT_030 ?></h3>
 
                         <?php
                         foreach ($arrayCode as $file => $code) {
@@ -250,7 +249,7 @@ include_once './code.php';
                             </ul>
                             <div class="code-block">
                                 <pre><code class="language-javascript"><?php echo $code ?></code></pre>
-                                                                </div><!--//code-block-->
+                                                                                    </div><!--//code-block-->
                         <?php }
                         ?>
 
@@ -260,10 +259,10 @@ include_once './code.php';
 
                      
                     <div class="block">
-                        <h3 class="sub-title text-center">Full Documentation</h3>
-                        <p class="text-center">Acesse agora e veja a documentação completada do Siht Framework no GitHub e todas as versões disponíveis.</p>
+                        <h3 class="sub-title text-center"><?php echo TEXT_031 ?></h3>
+                        <p class="text-center"><?php echo TEXT_032 ?></p>
                         <p class="text-center">
-                            <a class="btn btn-cta-primary" href="https://github.com/sihtphp/Siht" target="_blank">More on GitHub</a>
+                            <a class="btn btn-cta-primary" href="https://github.com/sihtphp/Siht" target="_blank"><?php echo TEXT_033 ?></a>
                         </p>
                     </div><!--//block-->
 
@@ -276,34 +275,30 @@ include_once './code.php';
         <section id="contact" class="contact section has-pattern">
             <div class="container">
                 <div class="contact-inner">
-                    <h2 class="title  text-center">Contact</h2>
-                    <p class="intro  text-center">
-<!--                        I hope you find this Bootstrap template useful. 
-                        <br />
-                        Feel free to get in touch if you have any questions or suggestions.-->
-                        Eu espero que você tenha encontrado o que precisava neste pequeno framework.
-                        <br />    
-                        Sinta-se livre para entrar em contato se você tiver dúvidas ou sugestões.
+                    <h2 class="title  text-center"><?php echo TEXT_034 ?></h2>
+                    <p class="intro  text-center">                        
+                        <?php echo TEXT_035 ?>
+                        <br />                            
+                        <?php echo TEXT_036 ?>
                     </p>
                     <div class="author-message">                      
                         <div class="profile">
                             <img class="img-responsive" src="assets/images/profile.png" alt="" />
                         </div><!--//profile-->
                         <div class="speech-bubble">
-                            <h3 class="sub-title">Quem sou eu?</h3>
-                            <p>Possuo graduação em Tecnologia em Processamento de Dados pelo Centro Universitário Cesumar(2006) e especialização em Desenvolvimento Orientados a Objetos em Java também pelo Centro Universitário Cesumar(2009), 
-                            
-                            <p> Atualmente sou Professor de Graduação/Pós-graduação e Coordenador de Sistemas do Centro Universitário Cesumar em <strong>Maringá-Paraná-Brasil</strong></p> 
+                            <h3 class="sub-title"><?php echo TEXT_037 ?></h3>
+                            <p> <?php echo TEXT_038 ?> </p>
+                            <p> <?php echo TEXT_039 ?> </p>
                             <div class="source">
                                 <span class="name"><a href="https://twitter.com/luizdeangeli" target="_blank">Luiz Henrique de Angeli</a></span>
                                 <br />
-                                <span class="title">Desenvolvedor PHP</span>
+                                <span class="title"><?php echo TEXT_040 ?></span>
                             </div><!--//source-->
                         </div><!--//speech-bubble-->                        
                     </div><!--//author-message-->
                     <div class="clearfix"></div>
                     <div class="info text-center">
-                        <h4 class="sub-title"><?php echo $arrayTextLanguages["CONTACT_GET_CONNECTED"][$LANGUAGE] ?></h4>
+                        <h4 class="sub-title"><?php echo TEXT_041 ?></h4>
                         <ul class="social-icons list-inline">
                             <li><a href="https://twitter.com/luizdeangeli" target="_blank"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="https://www.facebook.com/luizdeangeli" target="_blank"><i class="fa fa-facebook"></i></a></li>

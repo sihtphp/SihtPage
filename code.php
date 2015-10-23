@@ -31,7 +31,7 @@ require_once './Application/autoload.php';
     });
     \$app->post('/', function () use (\$app) {
         try {
-            \$request = json_decode(\$app->request->getBody());
+            \$request = json_decode(\$app->request()->getBody());
             \$controller = new \Application\City\Controller();
             \$result = \$controller->create(\$request);
             \$app->status(201); //created
@@ -43,7 +43,7 @@ require_once './Application/autoload.php';
     });
     \$app->put('/:id', function () use (\$app) {
         try {
-            \$request = json_decode(\$app->request->getBody());
+            \$request = json_decode(\$app->request()->getBody());
             \$controller = new \Application\City\Controller();
             \$result = \$controller->update(\$request);
             \$app->status(201);
