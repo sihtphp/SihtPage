@@ -124,7 +124,7 @@ include_once './code.php';
                             <i class="fa fa-code"></i>
                         </div>
                         <div class="content">
-                            <h3 class="sub-title">Controller <small>[obrigatório]</small></h3>
+                            <h3 class="sub-title">Controller <small>[<?php echo TEXT_042 ?>]</small></h3>
                             <p>
                                 <?php echo TEXT_019 ?>
                             </p>
@@ -135,7 +135,7 @@ include_once './code.php';
                             <i class="fa fa-code"></i>
                         </div>
                         <div class="content">
-                            <h3 class="sub-title">Factory <small>[opcional]</small> </h3>
+                            <h3 class="sub-title">Factory <small>[<?php echo TEXT_043 ?>]</small> </h3>
                             <p>
                                 <?php echo TEXT_020 ?>
                             </p>
@@ -146,7 +146,7 @@ include_once './code.php';
                             <i class="fa fa-code"></i>
                         </div>
                         <div class="content">
-                            <h3 class="sub-title">HandleIn <small>[opcional]</small> </h3>
+                            <h3 class="sub-title">HandleIn <small>[<?php echo TEXT_043 ?>]</small> </h3>
                             <p>
                                 <?php echo TEXT_021 ?>
                             </p>
@@ -158,7 +158,7 @@ include_once './code.php';
                             <i class="fa fa-code"></i>
                         </div>
                         <div class="content">
-                            <h3 class="sub-title">Repository <small>[opcional]</small></h3>
+                            <h3 class="sub-title">Repository <small>[<?php echo TEXT_043 ?>]</small></h3>
                             <p>
                                 <?php echo TEXT_022 ?>
                             </p>
@@ -169,7 +169,7 @@ include_once './code.php';
                             <i class="fa fa-code"></i>
                         </div>
                         <div class="content">
-                            <h3 class="sub-title">HandleOut <small>[opcional]</small></h3>
+                            <h3 class="sub-title">HandleOut <small>[<?php echo TEXT_043 ?>]</small></h3>
                             <p>
                                 <?php echo TEXT_023 ?>
                             </p>
@@ -180,7 +180,7 @@ include_once './code.php';
                             <i class="fa fa-code"></i>
                         </div>
                         <div class="content">
-                            <h3 class="sub-title">Model <small>[opcional]</small></h3>
+                            <h3 class="sub-title">Model <small>[<?php echo TEXT_043 ?>]</small></h3>
                             <p>
                                 <?php echo TEXT_024 ?>
                             </p>

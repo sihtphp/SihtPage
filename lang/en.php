@@ -43,3 +43,5 @@ define("TEXT_038", "I have a degree in Technology in Data Processing from the Un
 define("TEXT_039", "I am currently a Teacher of Graduate / Postgraduate and University Center Systems Coordinator Cesumar <strong> Maringa Parana, Brazil </ strong>");
 define("TEXT_040", "PHP Developer");
 define("TEXT_041", "Get Connected");
+define("TEXT_042", "required");
+define("TEXT_043", "optional");

@@ -50,3 +50,5 @@ define("TEXT_038", "Possuo graduação em Tecnologia em Processamento de Dados p
 define("TEXT_039", "Atualmente sou Professor de Graduação/Pós-graduação e Coordenador de Sistemas do Centro Universitário Cesumar em <strong>Maringá-Paraná-Brasil</strong>");
 define("TEXT_040", "Desenvolvedor PHP");
 define("TEXT_041", "Fique conectado");
+define("TEXT_042", "obrigatório");
+define("TEXT_043", "opcional");
