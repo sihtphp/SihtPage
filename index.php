@@ -95,9 +95,9 @@ include_once './code.php';
             <div class="social-media">
                 <div class="social-media-inner container text-center">
                     <ul class="list-inline">
-                        <li class="github-star"><iframe src="http://ghbtns.com/github-btn.html?user=luizdeangeli&repo=Siht&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></li>
-                        <li class="github-fork"><iframe src="http://ghbtns.com/github-btn.html?user=luizdeangeli&repo=Siht&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe></li>
-                        <li class="github-follow"><iframe src="http://ghbtns.com/github-btn.html?user=luizdeangeli&type=follow&count=true"
+                        <li class="github-star"><iframe src="http://ghbtns.com/github-btn.html?user=sihtphp&repo=Siht&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></li>
+                        <li class="github-fork"><iframe src="http://ghbtns.com/github-btn.html?user=sihtphp&repo=Siht&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe></li>
+                        <li class="github-follow"><iframe src="http://ghbtns.com/github-btn.html?user=sihtphp&type=follow&count=true"
                                                           allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe></li>
                     </ul>
                 </div>
