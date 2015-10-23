@@ -86,7 +86,7 @@ include_once './code.php';
                     <a class="btn btn-cta-primary scrollto" href="#docs" target="_blank"><?php echo TEXT_007 ?></a>
                 </div>
                 <ul class="meta list-inline">
-                    <li><a href="https://github.com/luizdeangeli/Siht" target="_blank"><?php echo TEXT_008 ?></a></li>
+                    <li><a href="https://github.com/sihtphp/Siht" target="_blank"><?php echo TEXT_008 ?></a></li>
                     <li><a href="https://packagist.org/packages/siht/siht" target="_blank"><?php echo TEXT_009 ?></a></li>
 <!--                    <li><a href="https://github.com/twbs/bootstrap" target="_blank"><?php echo TEXT_010 ?></a></li>-->
                     <li><?php echo TEXT_011 ?><a href="http://luizdeangeli.com.br" target="_blank">Luiz Henrique de Angeli</a></li>
