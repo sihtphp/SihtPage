@@ -34,7 +34,7 @@ include_once './code.php';
         <header id="header" class="header">  
             <div class="container">            
                 <h1 class="logo pull-left">
-                    <a class="scrollto" href="#promo">
+                    <a class="scrollto" href="#home">
                         <span class="logo-title">Siht</span>
                     </a>
                 </h1><!--//logo-->              
@@ -49,7 +49,7 @@ include_once './code.php';
                     </div><!--//navbar-header-->            
                     <div class="navbar-collapse collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li class="active nav-item sr-only"><a class="scrollto" href="#promo"><?php echo TEXT_001 ?></a></li>
+                            <li class="active nav-item sr-only"><a class="scrollto" href="#home"><?php echo TEXT_001 ?></a></li>
                             <li class="nav-item"><a class="scrollto" href="#about"><?php echo TEXT_002 ?></a></li>
                             <li class="nav-item"><a class="scrollto" href="#docs"><?php echo TEXT_003 ?></a></li>
                             <li class="nav-item last"><a class="scrollto" href="#contact"><?php echo TEXT_004 ?></a></li>
@@ -75,7 +75,7 @@ include_once './code.php';
         </header><!--//header-->
 
 
-        <section id="promo" class="promo section offset-header">
+        <section id="home" class="promo section offset-header">
             <div class="container text-center">
                 <h2 class="title">Siht<span class="highlight"> Framework </span></h2>
                 <p class="intro">
